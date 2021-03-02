@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class FindMaximum{
 
 
@@ -11,4 +13,7 @@ public class FindMaximum{
             return number3;
     }
 
+    <T extends Comparable> void printMaximum(T number1, T number2, T number3){
+        System.out.println(getMaximum(number1, number2, number3));
+    }
 }
